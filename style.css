@@ -1,0 +1,114 @@
+body {
+margin:0;
+padding:0;
+font-family:verdana;
+}
+.header {
+background-color:#123456;
+padding:10px;
+width:100%;
+position:fixed;
+top:0;
+}
+.content {
+border-radius:10px;
+background-color:#dddddd;
+box-shadow:2px 3px 25px;
+width:80%;
+margin:100px auto;
+padding:20px;
+}
+
+hr {
+height:5px;
+background-color:#123456;
+}
+
+.heading {
+font-family:serif;
+text-align:center;
+text-shadow:2px 3px #894654;
+font-size:50px;
+}
+
+.menu {
+background:url('bg.jpg');
+min-height:500px;
+}
+.menu ul {
+list-style-type:none;
+text-align:center;
+background-color:#abcdef;
+opacity:0.3;
+
+}
+.menu ul li {
+display:inline-block;
+padding:20px;
+border-right: 1px solid black;
+}
+.menu ul li a {
+text-decoration:none;
+}
+.great{
+font-weight:bold;
+font-size:20px;
+padding:50px;
+background-color:#ffffff;
+margin-top:150px;
+opacity:0.3;
+}
+p {
+border:3px solid #bbbbbb;
+text-indent:50px;
+border-radius:10px;
+width:400px;
+padding:20px;
+float:right;
+}
+.achieve {
+border:3px solid #bbbbbb;
+border-radius:10px;
+width:280px;
+padding:30px;
+background-color:#635412;
+display:inline-block;
+}
+.coad{
+border:3px solid #bbbbbb;
+border-radius:10px;
+width:280px;
+padding:30px;
+background-color:#635412;
+float:right;
+}
+.footer {
+min-height:100px;
+background-color:#000000;}
+
+a:link {
+    color: red;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: hotpink;
+}
+a:active {
+    color: blue;
+}
+
+table, th, td {
+border:1px solid black;
+border-collapse:collapse;
+text-align:center;
+padding:15px;
+}
+
+th {
+background-color:#897162;
+}
+td {
+background-color:#846165;
+}
